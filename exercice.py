@@ -24,7 +24,7 @@ def get_number_of_char(string: str, char: str) -> int:
     counter = 0
     for c in string:
         if c == char:
-            c += 1
+            counter += 1
     return counter
 
 
