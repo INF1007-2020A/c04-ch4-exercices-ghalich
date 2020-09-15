@@ -29,9 +29,9 @@ def get_number_of_char(string: str, char: str) -> int:
 
 
 def get_number_of_words(sentence: str, word: str) -> int:
-    counter
+    counter = 0
     for i in range(len(sentence)):
-        if sen[i:i+len(word)] == old_char:
+        if sentence[i:i+len(word)] == word:
 
 
 def main() -> None:
